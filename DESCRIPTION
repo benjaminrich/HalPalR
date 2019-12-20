@@ -1,0 +1,13 @@
+Package: HalPalR
+Type: Package
+Version: 0.1
+Date: 2019-12-20
+Title: Color palettes using Halton sequences in CIE L*a*b* color space
+Authors@R: c(
+    person("Benjamin", "Rich", role=c("aut", "cre"), email="mail@benjaminrich.net"))
+Description: Based on halpal.py by John Wiedenhoeft (https://github.com/wiedenhoeft/HalPal).
+License: GPL-3
+Imports: ggplot2 (>= 3.0.0), scales, randtoolbox, colorspace
+Suggests: knitr
+VignetteBuilder: knitr
+RoxygenNote: 6.1.1
